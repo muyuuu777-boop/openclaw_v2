@@ -102,6 +102,8 @@
 
 ## 4. 推荐的 Agent 模型分配（V1）
 
+> 状态：已于 2026-02-27 应用到 `~/.openclaw-lobster-v2/openclaw.json`（agents.list[*].model.primary）
+
 ### 4.1 管理决策类（main / manager）
 - 默认：`gpt-5.3-codex`
 - 复杂规划：`claude-opus-4.6`
