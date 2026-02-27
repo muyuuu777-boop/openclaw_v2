@@ -8,6 +8,11 @@
 - 接口类型：OpenAI-compatible（`api: openai-responses`）
 - 目标模型：`claude-opus-4.6-fast-thinking`（200k 上下文）
 - 凭据已写入配置（文档中不记录明文）
+- 新增内置记忆检索 embedding 配置：`agents.defaults.memorySearch`
+  - `provider: openai`
+  - `model: text-embedding-v4`
+  - `remote.baseUrl: https://dashscope-intl.aliyuncs.com/compatible-mode/v1`
+  - `fallback: none`
 
 ## 设计目的
 - 给后续不同 Agent 分配不同模型做准备
