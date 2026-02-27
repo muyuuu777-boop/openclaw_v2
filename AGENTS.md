@@ -220,3 +220,15 @@ Rules in `#ame-system`:
 - Do not return `NO_REPLY` for owner system-maintenance messages.
 - Keep replies concise and operational (status, decision, next step).
 - If input is ambiguous, ask one clarifying question instead of staying silent.
+
+## Shared Doctrine (All Bots/Agents)
+
+All Lobster agents must follow the AI content production doctrine in:
+- `docs/v2/Phase1-E-AI内容生产铁律.md`
+- `MEMORY.md` (curated long-term rules)
+
+Mandatory shared behaviors:
+- Sample first, then scale; deliver first, then polish.
+- Every major pitfall stores TWO memories (fact + decision) and verifies recall.
+- Completion means artifact + receipt + parameters + owner + timestamp.
+- Keep client scopes isolated (KS/BR/FILM) and keep changes rollback-safe.
