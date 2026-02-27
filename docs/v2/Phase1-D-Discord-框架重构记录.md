@@ -91,20 +91,20 @@
 - `[SYSTEM] [OPS] [LAB] [KS] [BR] [FILM] [PROMPT] [IMAGE] [VIDEO] [QC] [REPORT] [CHAT] [RESEARCH] [FUN] [PERSONAL]`
 
 原则：
-- `#ame-hq` 只谈系统治理；
+- `#ame-system` 只谈系统治理；
 - 杂聊先在 `#chat-room`，形成可执行项后转发到对应频道。
 
 ---
 
-## 6. `#ame-hq` 置顶使用规范（短版）
+## 6. `#ame-system` 置顶使用规范（短版）
 
-> 频道：`#ame-hq`（SYSTEM 总控）
+> 频道：`#ame-system`（SYSTEM 总控）
 
 1. 只讨论系统治理：架构、记忆、插件、技能、权限、稳定性、升级与回滚。
 2. 业务执行不要放这里（客户需求、提示词细节、素材渲染请去对应频道）。
 3. 每条消息建议加前缀：`[SYSTEM]` / `[OPS]` / `[LAB]`。
 4. 任何系统改动都必须记录 4 件事：改了什么、做了什么、为什么改、是否/为何回滚。
-5. 发现异常先报 `#system-ops`，需要决策再回 `#ame-hq`。
+5. 发现异常先报 `#system-ops`，需要决策再回 `#ame-system`。
 6. 新想法先在 `#system-lab` 验证，通过后再进入正式流程。
 7. 杂聊/头脑风暴先去 `#chat-room`，形成可执行项后转发到对应频道。
 8. 默认原则：不重建、不破坏、可回滚、可追踪。
